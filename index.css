@@ -1,95 +1,107 @@
 .body1 {
   width: 100%;
   height: 768px;
-  display: flex;
-  justify-content: center;
-  gap: 50px;
+  background-color: #F5F6FD;
 }
-
-.bg-img-1 {
-  margin-top: 120px;
-}
-
-.content {
-  width: 500px;
-  text-align: left;
+.body1 div {
   margin-left: 135px;
   margin-top: 127px;
+  width: 570px;
+  position: absolute;
 }
-.content h5 {
-  color: var(--Text_Black, #000);
-  /* H5 */
-  font-family: DM Sans;
+.body1 div h5 {
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
   letter-spacing: 4.8px;
   text-transform: uppercase;
 }
-.content h2 {
-  color: var(--Text_Black, #000);
-  /* H2 */
-  font-family: DM Serif Display;
+.body1 div h2 {
+  margin-top: 21px;
+  font-family: "DM Serif Display", serif;
   font-size: 56px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 64px; /* 114.286% */
+  line-height: 64px;
+  letter-spacing: 0.5px;
 }
-.content p {
-  width: 517px;
-  height: 83px;
-  flex-shrink: 0;
-  color: var(--Text_Black, #000);
-  /* Text_Big */
-  font-family: DM Sans;
+.body1 div p {
+  margin-top: 29px;
+  font-family: "DM Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
+  letter-spacing: 0.5px;
 }
-
-#lower-content {
-  display: flex;
-  border: 1px solid;
-  width: 500px;
+.body1 div div {
+  margin: 0%;
+  margin-top: 20px;
 }
-#lower-content h3 {
-  color: var(--Text_Black, #000);
-  /* H3 */
-  font-family: DM Serif Display;
+.body1 div div div:nth-child(1) {
+  width: 270px;
+}
+.body1 div div div:nth-child(1) h3 {
+  font-family: "DM Serif Display", serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 48px; /* 120% */
+  line-height: 48px;
+  letter-spacing: 0.5px;
 }
-
-.sideone > p:nth-child(1) {
-  color: var(--Text_Black, #000);
-  /* Text */
-  font-family: DM Sans;
+.body1 div div div:nth-child(1) p:nth-child(2) {
+  margin-top: 5px;
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
-
-.sideone > p:nth-child(2) {
-  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  /* Text_Gray */
-  font-family: DM Sans;
+.body1 div div div:nth-child(1) p:nth-child(3) {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
-
-.sideone {
-  border: 1px solid;
+.body1 div div div:nth-child(2) {
+  margin-left: 335px;
+  width: 270px;
 }
-
-.sidetwo {
-  border: 1px solid;
+.body1 div div div:nth-child(2) h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+}
+.body1 div div div:nth-child(2) p:nth-child(2) {
+  margin-top: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.body1 div div div:nth-child(2) p:nth-child(3) {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.body1 img {
+  margin-top: 90px;
+  margin-left: 800px;
 }
 
 .nav-bar h3 {
@@ -176,4 +188,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 16px; /* 160% */
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=index.css.map */
