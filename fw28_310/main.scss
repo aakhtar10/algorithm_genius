@@ -69,7 +69,7 @@
    padding-bottom:  30px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:900px) {
     
 .child2{
     grid-template-columns: repeat(1,1fr);
@@ -80,6 +80,7 @@
    display: flex;
    flex-direction: column;
    padding-bottom: 20px;
+  
   
    
 }
@@ -214,10 +215,10 @@ margin-top: 26px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    margin-top: 26px;
+    margin-top: 24px;
     line-height: 24px;   
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     // text-align: center;
     p{
         margin: 8px;
@@ -305,7 +306,18 @@ color: #434CCC;
 
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:900px) {
+   
+   .child1{
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: wrap;
+   }
+   
+   
+   
+   
+   
     .con2{
         display: flex;
         flex-direction: column;
@@ -316,7 +328,7 @@ color: #434CCC;
         padding-bottom: 40px;
 
          .box1 img{
-            margin-left: 30px;
+            margin-left: 10px;
                 width: 401px;
             height: 603px;
          
@@ -327,13 +339,19 @@ color: #434CCC;
          .box2{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            // justify-content: center;
+            // align-items: center;
             margin: auto;
       
-           
+           h2{
+            margin-left: -40px;
+           }
          }
+        
            
+
+
+
     }    
     .box2 p{
          text-align: center;
@@ -342,5 +360,10 @@ color: #434CCC;
          justify-content: center;
          align-items: center;
     }
+    .btn1{
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+   
    
 }
