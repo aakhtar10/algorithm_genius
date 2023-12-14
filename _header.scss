@@ -13,7 +13,7 @@ line-height: 48px; /* 120% */
     display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 100%;
+   width: 1440px;
    height: 80px;
    flex-shrink: 0;
    background: #434CCC;
@@ -55,14 +55,23 @@ border: #FFFFFF4D 1px solid;
 border-radius: 5px;
 
       }
+      
 }
+#burger{
+    display: none;
+     width: 20px;
+     height: 14px;
+     flex-shrink: 0;
+     color: #FFF;
+
+   }
 .about{
   display: flex;
   flex-direction: column;
 
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 1440px;
 height: 224px;
 flex-shrink: 0;
 background: #434CCC;
@@ -73,15 +82,77 @@ text-align: center;
 
 /* H1 */
 font-family: DM Serif Display;
-font-size: 72px;
+font-size: 56px;
 font-style: normal;
 font-weight: 400;
-line-height: 80px; /* 111.111% */
-margin-bottom: -1px;
-margin-top: -10px;
+line-height: 64px; /* 111.111% */
+margin-bottom: 10px;
+margin-right: 622px;
+margin-left: 623px;
+margin-top: 47px;
 }
 p{
   color: var(--Text_White, #FFF);
+text-align: center;
+
+/* Text_Big */
+font-family: "DM Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 160% */
+margin-bottom: 55px;
+margin-right: 596px;
+margin-left: 597px;
+}
+}
+
+@media all and (max-width: 480px) {
+    .nav-bar ul {
+        display: none;
+      }
+  #burger{
+   margin-right: 5px;
+   margin-top: 10px;
+    display: block;
+    color: #FFF;
+    cursor: pointer;
+    width: 20px;
+    height: 14pxes;
+  }
+ 
+.nav-bar{
+    
+    width: 375px;
+height: 64px;
+flex-shrink: 0;
+    div{
+        h3{
+            color: #FFF;
+font-family: "DM Serif" Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+margin-left: 15px;
+margin-top: 16px;
+height: 32px;
+width: 62px;
+        }
+    }
+}
+.about{
+    height: 176px;
+    width: 375px;
+    background-color: rgba(67, 76, 204, 1);
+
+    h1{
+     margin-bottom: 13px;
+        font-size: 56px;
+    
+    }
+    p{
+        color: var(--Text_White, #FFF);
 text-align: center;
 
 /* Text_Big */
@@ -89,6 +160,14 @@ font-family: DM Sans;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: 16px; /* 160% */
+line-height: 32px; /* 160% */
+margin-bottom: 35px;
+width: 247px;
+height: 32px;
+    }
+    
+}
+header{
+    background: #434CCC;
 }
 }
