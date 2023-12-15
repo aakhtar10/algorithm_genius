@@ -76,3 +76,95 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: #2731b9;
     cursor: pointer;
 }
+
+@media all and (max-width:480px){
+
+    #id164C{
+        height: 832px;
+         width:100%;
+        //  border:4px solid ;
+         // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+         display: block;
+         box-sizing: border-box;
+         
+     }
+     
+     .id164Ca{
+        width: 330.639px;
+        height: 305.208px;
+        flex-shrink: 0;
+        //  border:1px solid red;
+         margin:10px 0px 0px 10px ;
+         padding:5px 5px 5px 0px; 
+        
+     
+     }
+     .id164Ca>img{
+        // width:330px;
+        width: 100%;
+
+    }
+     .id164Cb{
+        height:385px;
+        // border:1px solid ;
+        margin: 10px 0px 0px 8px;
+        box-sizing: border-box;
+     }
+     .id164Cb>h6{
+         color:black;
+     
+     /* H5 */
+     font-family: DM Sans;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px; /* 150% */
+     letter-spacing: 4.8px;
+     text-transform: uppercase;
+     }
+     .id164Cb>h3{
+        display: inline;
+        box-sizing: border-box;
+         color:$color5;
+        margin:0px 0px 0px 0px ;
+    //   border:1px solid green;
+      height: 96px;
+         font-family: DM Serif Display;
+         font-size: 40px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 48px; /* 120% */
+     }
+     .id164Cb>p{
+        display: inline-block;
+        // width: 100%;
+        // height:135px;
+         color: $color5;
+       margin:0px 0px 0px 0px ;
+       padding:0px 0px 0px 0px;
+    border:1px solid white;
+   
+/* Text_Big */
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+     }
+     .id164Cb>button{
+         border-radius: 5px;
+         color: #ffff;
+     background:#434CCC;
+     margin-top: 32px;
+     padding:13px 43.5px 11px 43.5px;
+     border: 1px solid #434CCC;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     }
+     .id164Cb>button:hover{
+         background-color: #2731b9;
+         cursor: pointer;
+     }
+
+
+
+}
