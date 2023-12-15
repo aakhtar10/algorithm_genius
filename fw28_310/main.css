@@ -51,7 +51,7 @@
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 480px) {
   .child2 {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -229,7 +229,7 @@
   color: #434CCC;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 480px) {
   .child1 {
     display: flex;
     flex-direction: column;
