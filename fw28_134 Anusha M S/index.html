@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <title>Your Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    footer {
+      background-color: #E7F0F5;
+      width: 100%;
+      padding: 50px;
+    }
+
+    .logo {
+      width: 151.9px;
+      height: 62.4px;
+    }
+
+    .subscribe-text {
+      margin-top: 22.5px;
+      font-size: 24px; 
+      font-family: 'Metropolis', sans-serif; 
+    }
+
+    .email-input {
+      margin-top: 10px;
+    }
+
+    h5, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+   
+    .col-md-3:nth-child(2) h5 {
+      margin-bottom: 20px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+   
+    .col-md-3:nth-child(3) h5,
+    .col-md-3:nth-child(4) h5 {
+      margin-bottom: 20px;
+    }
+
+  
+    ul li a {
+      text-decoration: none; 
+      color: #0f1010; 
+      display: block; 
+    }
+
+   
+    .col-md-3 custom-padding-left {
+      margin: 0 10px 20px 10px; 
+      padding-left: 50px; 
+    }
+
+
+ /* Styles for Midfooter */
+ .midfooter {
+      padding-left: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      background-color: #EFF4F7;
+    }
+
+   
+    .midfooter .division {
+      width: 363.8px;
+      margin-right: 50px;
+    }
+
+    .midfooter .division h2 {
+      padding-top: 37.5px;
+      padding-left: 54px;
+      height: 24px;
+      width: 363.8px;
+      padding-bottom: 18px;
+    }
+
+    .midfooter .division .sub-category {
+      padding-bottom: 7.5px;
+    }
+
+    .midfooter .division .sub-category ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      /* padding-top: 18px; */
+    }
+    
+
+    /* .midfooter .division .sub-category ul li {
+      margin-bottom: 7.5px;
+    } */
+    .midfooter .division .sub-category  {
+      margin-bottom: 7.5px;
+    }
+    ul li a{
+        color: #868C91;}
+
+
+        /* Styles for last footer */
+        .last-footer {
+     /* height: 231.37px; */
+     height: 350px;
+      width: 100%;
+      background-color: #dde5ed;
+      color: #090909;
+    }
+
+    .last-footer .centered-text {
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .social-icons {
+      margin-top: 12.5px;
+      margin-bottom: 12.5px;
+    }
+
+    .social-icons img {
+      margin-right: 12.5px;
+    }
+
+    .privacy-policy {
+      height: 14px;
+      width: 100%;
+      padding: 18px 0;
+      text-align: center;
+    }
+
+    .empty-div {
+      height: 20px;
+    }
+
+    .copyright-text {
+      height: 73.8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .contact-text {
+      text-align: center;
+      padding-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <!-- Part 1 -->
+        <div class="col-md-3 custom-padding-left">
+          <img src="boAt_logo.svg" alt="Company Logo" class="logo">
+          <p class="subscribe-text">Subscribe to our email alerts!</p>
+          <div class="form-group email-input">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address">
+          </div>
+        </div>
+
+        <!-- Part 2 -->
+        <div class="col-md-3 custom-padding-left">
+          <h5>Shop</h5>
+          <div class="row">
+            <div class="col-md-6">
+              <div>
+                <ul>
+                  <li><a href="#">True Wireless Earbuds</a></li>
+                  <li><a href="#">Wired Headphones</a></li>
+                  <li><a href="#">Home Audio</a></li>
+                  <li><a href="#">Smart Watches</a></li>
+                  <li><a href="#">Misfit Trimmers</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <ul>
+                  <li><a href="#">Wireless Headphones</a></li>
+                  <li><a href="#">Wireless Speakers</a></li>
+                  <li><a href="#">Mobile Accessories</a></li>
+                  <li><a href="#">TRebel</a></li>
+                  <li><a href="#">Earn 100</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Part 3 -->
+        <div class="col-md-3 custom-padding-left">
+          <h5>Help</h5>
+          <ul>
+            <li><a href="#">Track Your Order</a></li>
+            <li><a href="#">Warranty & Support</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Service Centers</a></li>
+            <li><a href="#">Bulk Orders</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Why Buy Direct</a></li>
+          </ul>
+        </div>
+
+        <!-- Part 4 -->
+        <div class="col-md-3 custom-padding-left">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#">About boAt</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Read Our Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Social Responsibility</a></li>
+            <li><a href="#">Warranty Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+   <!-- Midfooter -->
+   <div class="midfooter">
+    <!-- Div 1 -->
+    <div class="division">
+      <h4>True Wireless Earbuds</h4>
+      <div class="sub-category">
+        <h6>Shop by Features</h6>
+        <ul>
+          <li><a href="">Noise cancellation Earbuds</a></li>
+          <li><a href="">Gaming Earbuds</a></li>
+          <li><a href="">Large Playback Earbuds</a></li>
+        </ul>
+      </div>
+      <div class="sub-category">
+        <h6>Shop by Price</h6>
+        <ul>
+          <li><a href="">Earbuds Under 1000</a></li>
+          <li><a href="">Earbuds Under 2000</a></li>
+          <li><a href="">Earbuds Under 3000</a></li>
+          <li><a href="">Earbuds Under 4000</a></li>
+          <li><a href="">Earbuds Under 5000</a></li>
+          <li><a href="">Earbuds Under 5000</a></li>
+        </ul>
+      </div>
+      <h4>Wired Earphones</h4>
+      <div class="sub-category">
+        <h6>Shop by Features</h6>
+        <ul>
+          <li><a href="">Wired Headphones with Mic</a></li>
+          <li><a href="">HeadPhones with Mic for PC</a></li>
+        </ul>
+      </div>
+      <div class="sub-category">
+        <h6>Shop by Price</h6>
+        <ul>
+          <li><a href="">Wired Headphones Under 1000</a></li>
+          <li><a href="">Wired Headphones Under 2000</a></li>
+          <li><a href="">Wired Headphones Under 3000</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    
+
+    <!-- Div 2 -->
+    <div class="division">
+        <h4>Gaming Headphones </h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="">Gaming Headphones with Mic </a></li>
+            <li><a href="">Low Latency Headphone </a></li>
+            <li><a href="">RGB Light Headphones </a></li>
+            <li><a href="">Headphone for PC Gaming </a></li>
+          </ul>
+        </div>
+        
+        <h4>Wireless Speakers</h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="">Portable Speakers Long Playback Speakers</a></li>
+            <li><a href="">Waterproof Bluetooth Speaker</a></li>
+            <li><a href="">Party Speaker with RGB Lights</a></li>
+            <li><a href="">Speaker with Karaoke Mic </a></li>
+          </ul>
+        </div>
+        <div class="sub-category">
+          <h6>Shop by Price</h6>
+          <ul>
+            <li><a href="">Bluetooth Speakers Under 1000 </a></li>
+            <li><a href="">Bluetooth Speakers Under 1000 </a></li>
+            <li><a href="">Bluetooth Speakers Under 1000 </a></li>
+            <li><a href="">Bluetooth Speakers Under 1000 </a></li>
+            <li><a href="">Bluetooth Speakers Under 1000 </a></li>
+          </ul>
+        </div>
+
+        <h4>Sound Bar</h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="">Dolby Soundbars </a></li>
+            <li><a href="">Soundbar with Wireless Subwoofer</a></li>
+            <li><a href="">Soundbar with Wired Subwoofer</a></li>
+            <li><a href="">Alexa Enabled Soundbar</a></li>
+            <li><a href="">Bluetooth Soundbar</a></li>
+          </ul>
+        </div>
+        <div class="sub-category">
+          <h6>Shop by Price</h6>
+          <ul>
+            <li><a href="">Soundbars Under 10000 </a></li>
+            <li><a href="">Soundbars Under 20000 </a></li>
+            <li><a href="">Soundbars Under 3000 </a></li>
+            <li><a href="">Soundbars Under 5000 </a></li>
+            <li><a href="">Soundbars Under 20000 </a></li>
+          </ul>
+        </div>
+
+        <h4>Smart Watch</h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="">Portable Speakers Long Playback Speakers</a></li>
+            <li><a href="">Waterproof Bluetooth Speaker</a></li>
+            <li><a href="">Party Speaker with RGB Lights</a></li>
+            <li><a href="">Speaker with Karaoke Mic </a></li>
+          </ul>
+        </div>
+        <div class="sub-category">
+          <h6>Shop by Price</h6>
+          <ul>
+            <li><a href="">Bluetooth Speakers Under 1000 </a></li>
+            <li><a href="">Bluetooth Speakers Under 1000 </a></li>
+            <li><a href="">Bluetooth Speakers Under 1000 </a></li>
+            <li><a href="">Bluetooth Speakers Under 1000 </a></li>
+            <li><a href="">Bluetooth Speakers Under 1000 </a></li>
+          </ul>
+        </div>
+      </div>
+
+    <!-- Div 3 -->
+    
+    <div class="division">
+        <h4>Trimmers</h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="">Trimmer for Men</a></li>
+          </ul>
+        </div>
+        <div class="sub-category">
+          <h6>Shop by Price</h6>
+          <ul>
+            <li><a href="">Trimmer Under 1000</a></li>
+            <li><a href="">Trimmer Under 2000</a></li>
+          </ul>
+        </div>
+        <h4>Limited Edition</h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="">Limited Edition HeadPhones</a></li>
+            <li><a href="">Limited Edition SmartWatch</a></li>
+            <li><a href="">Limited Edition Earphone Speakers</a></li>
+            <li><a href="">Limited Edition</a></li>
+          </ul>
+        </div>
+
+        <h4>Car Accessories</h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="">Car Charger</a></li>
+            <li><a href="">Aux Cable for Car</a></li>
+          </ul>
+        </div>
+        <div class="sub-category">
+          <h6>Shop by Price</h6>
+          <ul>
+            <li><a href="">Car Charger under 500</a></li>
+            <li><a href="">Car Charger above 500</a></li>
+          </ul>
+        </div>
+
+        <h4>Trebel Range</h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="">SmartWatch for Women</a></li>
+            <li><a href="">Earbuds for Women</a></li>
+            <li><a href="">Neckband for Women</a></li>
+            <li><a href="">Earphone for Women</a></li>
+            <li><a href="">Headphone for Women</a></li>
+          </ul>
+        </div>
+       
+
+        <h4>Power Banks</h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="">Power Bank 100000mah</a></li>
+            <li><a href="">Power Bank 20000mah</a></li>
+            <li><a href="">Mobile Power Bank</a></li>
+            <li><a href="">Fast Charging Power Bank</a></li>
+            <li><a href="">Power Bank for iPhone</a></li>
+          </ul>
+        </div>
+        <div class="sub-category">
+            <h6>Shop by Price</h6>
+            <ul>
+              <li><a href="">Power Bank under 1000</a></li>
+              <li><a href="">Power Bank under 1500</a></li>
+              <li><a href="">Power Bank under 2000</a></li>
+            </ul>
+          </div>
+
+
+
+      </div>
+    <!-- Div 4 -->
+    <div class="division">
+        <h4>Chargers</h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="#">Wireless Charger</a></li>
+            <li><a href="#">Type C charger</a></li>
+            <li><a href="#">Fast Charger</a></li>
+            <li><a href="#">USB Charger</a></li>
+            <li><a href="#">Micro USB Charger</a></li>
+            <li><a href="#">Type C Charger</a></li>
+          </ul>
+        </div>
+       
+        <h4>Cables</h4>
+        <div class="sub-category">
+          <h6>Shop by Features</h6>
+          <ul>
+            <li><a href="#">C Type Cable</a></li>
+            <li><a href="#">Micro USB Cable</a></li>
+            <li><a href="#">Smart Watch Charging Cable</a></li>
+            <li><a href="#">USB C to C Cable</a></li>
+            <li><a href="#">C Type Micro USB</a></li>
+            <li><a href="#">Lightening Cable</a></li>
+          </ul>
+        </div>
+    </div>
+   </div>
+
+
+    <!-- Last Part of the Footer -->
+  <div class="last-footer">
+    <!-- 1st Div -->
+    <div class="centered-text">
+      <!-- <h5><b>Let's get social</b></h5> -->
+      <div class="social-icons d-flex justify-content-center">
+        <h5><b>Let's get social</b></h5>
+        <a href="https://www.facebook.com/boat.lifestyle"><img src="facebook.png" alt="Facebook" width="20px" height="16px"></a>
+        <!-- <img src="facebook.png" alt="Facebook" width="20px" height="16px"> -->
+        <a href="https://twitter.com/RockWithboAt"> <img src="twitter.webp" alt="Twitter" width="20px" height="16px"></a>
+        <a href="https://www.instagram.com/boat.nirvana/"> <img src="insta.png" alt="Instagram" width="20px" height="16px"></a>
+        <a href="https://www.youtube.com/channel/UCY3JXaO_v8H3E6hTYUp5qWQ"> <img src="youtube.webp" alt="YouTube" width="20px" height="16px"></a>
+        <a href="https://www.linkedin.com/company/boat-lifestyle/"><img src="linkedin.png" alt="LinkedIn" width="20px" height="16px"></a>
+        <!-- <img src="twitter.webp" alt="Twitter" width="20px" height="16px"> -->
+        <!-- <img src="insta.png" alt="Instagram" width="20px" height="16px"> -->
+        <!-- <img src="youtube.webp" alt="YouTube" width="20px" height="16px"> -->
+        <!-- <img src="linkedin.png" alt="LinkedIn" width="20px" height="16px"> -->
+      </div>
+    </div>
+
+    <!-- 2nd Div -->
+    <div class="privacy-policy">
+      <a href="#" style="color: black;">Privacy Policy</a> &bull; <a href="#" style="color:#090909": black;>Terms and Conditions</a>
+    </div>
+
+ <!-- /* 3rd Div */ -->
+
+    <div class="empty-div"></div>
+
+    <!-- 4th Div -->
+    <div class="copyright-text" style="color: #868C91;">
+      <div>
+        © 2023 Imagine Marketing Limited. All Rights Reserved.
+      </div>
+      <div class="contact-text" style="color: #868C91;">
+        <p>For queries contact us:</p>
+        <p>Manager, Imagine Marketing Limited</p>
+        <p>Unit no. 204 & 205, 2nd floor, D-wing & E-wing, Corporate Avenue,</p>
+        <p>Andheri Ghatkopar Link Road, Mumbai, Maharashtra-400093, India</p>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
