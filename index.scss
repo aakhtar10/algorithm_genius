@@ -380,7 +380,7 @@ header{
 
 .main-con{
     height: auto;
-    width: 100vw;
+    width: 1440px;
    background-color: #F5F6FD;
    padding-bottom: 30px;
 //    background: #F5F6FD;
@@ -428,7 +428,7 @@ header{
 
 .child2{
    height: auto;
-   width: 100%;
+   width: 1440px;
    display: grid;
    grid-template-columns: repeat(3,1fr);
    gap:30px;
@@ -440,10 +440,12 @@ header{
 }
 
 @media screen and (max-width:480px) {
-    
+   .main-con{
+    width: 451px;
+   } 
 .child2{
     grid-template-columns: repeat(1,1fr);
-
+    width: 430px;
 }
 .child1{
    
@@ -534,6 +536,8 @@ span{
 
     box-sizing: border-box;
     // width: 100vw;
+    width: 1440px;
+ 
 height: auto;
 display: flex;
 background-color: #f5f6fc;
@@ -693,6 +697,7 @@ color: #434CCC;
         flex-wrap: wrap;
         height: auto;
         margin: auto;
+        width: 451px;
         // text-align: center;
         padding-bottom: 40px;
 
