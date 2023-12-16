@@ -15,3 +15,27 @@
     height: 50px;
     background-color: rgb(239,244,247);
 }
+
+.container061{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: auto;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    gap: 20px;
+   
+
+}
+.container061::-webkit-scrollbar {
+    width: 0.5rem; 
+}
+.container061>div{
+    width: 400px;
+    height: 440px;
+    /* border: 1px solid black; */
+    /* border-radius:10px ; */
+}
+.container061 video{
+    border-radius: 15px;
+   
+}
