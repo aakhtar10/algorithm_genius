@@ -145,7 +145,7 @@
 .mchild-5{
       display: grid;
       grid-template-columns: repeat(5,1fr);
-      gap: 10px;
+      gap: 11px;
       overflow-x: scroll;
       margin: 10px;
      
