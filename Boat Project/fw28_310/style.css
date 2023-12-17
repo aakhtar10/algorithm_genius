@@ -133,11 +133,30 @@
 
 .main-con4{
     margin-top: 30px;
-    display: flex;
-    justify-content: space-evenly;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
     text-align: center;
 
+
 }
+
+
+
+@media all and (max-width:450px) {
+   .main-con4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+   overflow-x: scroll;
+   }
+   .main-con4::-webkit-scrollbar{
+    display: none;
+   }
+
+}
+
+
+
+
 .main-con4 img{
     width: 140px;
 }
