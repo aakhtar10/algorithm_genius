@@ -8,7 +8,7 @@
 .body1{
     width: 1440px;
     height: 768px;
-    // background-color:  #F5F6FD;
+    background-color:  #F5F6FD;
     justify-content: space-between;
 
     div{
@@ -116,7 +116,7 @@
 
 @media all and (max-width:480px){
     .body1{
-        width: 375px;
+        width: 480px;
         height: 1152px;
         margin-left: 14px;
         margin-bottom: 100px;
@@ -208,6 +208,7 @@ line-height: 48px; /* 120% */
    align-items: center;
    width: 1440px;
    height: 80px;
+margin-bottom: -1px;
    flex-shrink: 0;
    background: #434CCC;
 }
@@ -305,20 +306,18 @@ margin-left: 597px;
         display: none;
       }
   #burger{
-   position: absolute;
-    right: 25px;
-    
+  margin-right: 20px;  
    margin-top: 10px;
     display: block;
     color: #FFF;
     cursor: pointer;
     width: 20px;
-    height: 14pxes;
+    height: 14px;
   }
  
 .nav-bar{
     
-    width: 375px;
+    width: 480px;
 height: 64px;
 flex-shrink: 0;
     div{
@@ -338,7 +337,7 @@ width: 62px;
 }
 .about{
     height: 176px;
-    width: 375px;
+    width: 480px;
     background-color: rgba(67, 76, 204, 1);
 
     h1{
@@ -898,12 +897,10 @@ line-height: 24px; /* 150% */
     
     #id164A{
         // width:1440px;
-        width:100%;
+        width:450px;
         height:869px;
-        color:$color2;
-    
-    
-        border:none;
+        color:$color2;  
+        // border: 1px solid #434;
         // font-family: 'Bodoni Moda', serif;
         font-family: 'Kalnia', serif;
         text-align: center;
@@ -937,7 +934,7 @@ line-height: 24px; /* 150% */
     text-align: center;
     // margin: 29px 335px 0px 335px;
     // margin-top:29px;
-    padding:0px 15px 0px 15px;
+    padding:0px 10px 0px 0px;
     
     /* Text_Big */
     // font-family: DM Serif Display;
@@ -954,7 +951,7 @@ line-height: 24px; /* 150% */
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        // margin-left: 123px;
+        margin-left: 90px;
         // margin:52px 0px 0px 53px ;
         
     }
@@ -1576,7 +1573,7 @@ $color6:black;
 @media all and (max-width:480px){
 
     .unique1{
-        width: 375px;
+        width: 480px;
         height: 1px;
         flex-shrink: 0;
         opacity: 0.0974;
@@ -1585,3 +1582,5 @@ $color6:black;
 
 
 }
+
+
