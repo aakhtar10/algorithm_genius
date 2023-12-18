@@ -16,22 +16,74 @@ header{
     padding: 10px;
     height: 40px;
     background-color: rgb(239,244,247);
-    font-size: 14px;
+    font-size: 14px
 }
 #navbar .navbar-brand img {
-   margin-right: 100px;
+   margin-right: 40px;
+  
     width: 100px; 
      height: auto;
 }
 #navbar{
     font-style: normal;
     /* font-family: 'Metrophobic', sans-serif; */
-    font-weight: bolder;
-    font-size: 18px;
+  
+    font-size: 15px;
     line-height: 24px;
     color: rgb(0, 0, 0);
+    padding: 20px;
 
 }
+.nav-item{
+    margin-left: 10px;
+    transition: text-decoration 0.5s, font-weight 0.1s;
+   
+}
+.nav-item:hover{
+    text-decoration: underline;
+    color: red;
+    font-weight: bolder;
+}
+.nav-item a{
+    color: black;
+    
+    
+}
+svg{
+    margin-left: 12px;
+}
+.form-control{
+    border-radius: 20px 0px 0px  20px;
+   
+}
+.btn{
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -10px;
+}
+#dropdown{
+    width: auto;
+    height: 310px;
+    padding: 10px;
+    
+    /* display: flex; */
+}
+.dp{
+  
+    flex-direction: row;
+}
+@media all and (max-width: 480px) {
+.dp2{
+    display: none;
+}
+.navtop061{
+    font-size: 9px;
+    overflow: hidden;
+}
+}
+
+
+
+
 /* Nav Css End */
 
 /* Bestseller CSS start */
@@ -39,9 +91,10 @@ header{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     height: auto;
-    overflow-y: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     scrollbar-width: thin;
-    gap: 20px;
+   place-items: center;
    
 
 }
@@ -49,18 +102,28 @@ header{
     width: 0.5rem; 
 }
 .container061>div{
-    width: 400px;
+    width: 330px;
     height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* border: 1px solid black; */
     /* border-radius:10px ; */
+    transition: transform 0.5s;
+    animation: cardslide 2s ;
+  
 }
 .container061 video{
     border-radius: 15px;
+    
    
 }
 .container061 a{
     text-decoration: none;
     color: black;
+}
+.container061>div:hover{
+transform: scale(1.09);
 }
 /* Bestseller CSS end */
 
@@ -70,7 +133,22 @@ header{
     justify-content: center;
     align-items: center;
     
+    
 }
 #daily_deals img{
  border-radius: 10px;
+ width: 1200px;
+ overflow: hidden;
+ height: auto;
+}
+
+@keyframes cardslide{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }

@@ -7,6 +7,7 @@
 .body1 {
   width: 1440px;
   height: 768px;
+  background-color: #F5F6FD;
   justify-content: space-between;
 }
 .body1 div {
@@ -112,7 +113,7 @@
 
 @media all and (max-width: 480px) {
   .body1 {
-    width: 375px;
+    width: 480px;
     height: 1152px;
     margin-left: 14px;
     margin-bottom: 100px;
@@ -174,6 +175,7 @@
   align-items: center;
   width: 1440px;
   height: 80px;
+  margin-bottom: -1px;
   flex-shrink: 0;
   background: #434CCC;
 }
@@ -261,17 +263,16 @@
     display: none;
   }
   #burger {
-    position: absolute;
-    right: 25px;
+    margin-right: 20px;
     margin-top: 10px;
     display: block;
     color: #FFF;
     cursor: pointer;
     width: 20px;
-    height: 14pxes;
+    height: 14px;
   }
   .nav-bar {
-    width: 375px;
+    width: 480px;
     height: 64px;
     flex-shrink: 0;
   }
@@ -289,7 +290,7 @@
   }
   .about {
     height: 176px;
-    width: 375px;
+    width: 480px;
     background-color: rgb(67, 76, 204);
   }
   .about h1 {
@@ -681,10 +682,9 @@
     box-sizing: border-box;
   }
   #id164A {
-    width: 100%;
+    width: 450px;
     height: 869px;
     color: white;
-    border: none;
     font-family: "Kalnia", serif;
     text-align: center;
     background-color: #434CCC;
@@ -703,7 +703,7 @@
   #id164A > p {
     color: white;
     text-align: center;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 10px 0px 0px;
     /* Text_Big */
     font-size: 20px;
     font-style: normal;
@@ -717,6 +717,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 90px;
   }
   .mainflexA > div {
     width: 100%;
@@ -1229,7 +1230,7 @@
 
 @media all and (max-width: 480px) {
   .unique1 {
-    width: 375px;
+    width: 480px;
     height: 1px;
     flex-shrink: 0;
     opacity: 0.0974;
