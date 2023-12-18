@@ -8,6 +8,8 @@
    overflow-y: hidden;
    scrollbar-width: thin;
    gap: 20px;
+   align-self: center;
+   margin-left: 80px;
 
 }
 .con-1::-webkit-scrollbar{
@@ -164,15 +166,9 @@ transition:transform  0.5s;
 
     
 }
-.boxs{
-    transition:transform  0.5s;
-}
 
 
-.boxs:hover{
-    transform:scale(0.9);
-    cursor: pointer;
-}
+
 
 
 @media all and (max-width:450px) {
