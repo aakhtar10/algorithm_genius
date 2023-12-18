@@ -9,7 +9,7 @@
    scrollbar-width: thin;
    gap: 20px;
    align-self: center;
-   margin-left: 80px;
+   margin: 40px;
 
 }
 .con-1::-webkit-scrollbar{
