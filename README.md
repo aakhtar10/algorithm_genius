@@ -45,6 +45,8 @@ HTML (Hyper Text Markup Language)
 
 CSS (Cascade Styling Sheet)
 
+SCSS
+</br></br>
 The webpage consists of three main sections: the header, body, and footer. HTML is used to add content, while CSS is used for styling and providing functionality.
 
 Project Overview
