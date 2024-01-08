@@ -1,6 +1,6 @@
 <h1>Algorithm genius</h1>
 
-<p>Algorithm geniu collaborative project that provides a structured layout for a developer's portfolio, aiming to create a lasting impression for portfolio viewers.</p>
+<p>Algorithm genius collaborative project that provides a structured layout for a developer's portfolio, aiming to create a lasting impression for portfolio viewers.</p>
 
 <h3>Table of Contents</h3>
 
@@ -29,3 +29,26 @@ Algorithm Genius is a collaborative project that includes a group of four member
 Seveloper's porfolio
 
 Team Members
+
+<ul>
+  <li><b>Arsnal Aktar</b>b></li>
+  <li><b> Yash Aditya </b>b> </li>
+  <li><b>Prashad Pavar </b>b></li>
+   
+</ul>
+
+Tech Stacks Used
+
+This project is built using the following technologies:
+
+HTML (Hyper Text Markup Language)
+
+CSS (Cascade Styling Sheet)
+
+The webpage consists of three main sections: the header, body, and footer. HTML is used to add content, while CSS is used for styling and providing functionality.
+
+Project Overview
+
+The project is divided into three main sections:
+
+1. Header. A section that introduces the portfolio, includes a logo, and provides navigation links to different parts of the portfolio.
