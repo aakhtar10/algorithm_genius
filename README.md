@@ -53,4 +53,8 @@ Project Overview
 
 The project is divided into three main sections:
 
-1. Header. A section that introduces the portfolio, includes a logo, and provides navigation links to different parts of the portfolio.
+1. Header:The header section of a web page typically contains elements that are considered integral to the identity and navigation of the site. 
+
+2. section:The main section of a web page is where the primary content is displayed. This area typically contains the main content of your webpage, such as articles, blog posts, product listings, or any other essential information you want to present. Here's an example of how you might structure and style a main section using HTML and SCSS:
+
+3. footer:the footer section is typically used to provide information and elements that are common to the bottom of the web page. The footer often includes details such as copyright information, contact links, social media icons, and other relevant content. Here's an example of how you might structure and style a footer section using HTML and SCSS (SCSS is a syntax for Sass, a CSS preprocessor):
