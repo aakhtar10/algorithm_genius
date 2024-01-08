@@ -33,7 +33,7 @@ Team Members
 <ul>
   <li><b>Arsnal Aktar</b></li>
   <li><b> Yash Aditya </b> </li>
-  <li><b>Prashad Pavar </b></li>
+  <li><b>Prasad Pawar </b></li>
    
 </ul>
 
