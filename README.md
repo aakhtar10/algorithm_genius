@@ -21,11 +21,11 @@ Tech Stacks Used
 <li> License</li>
 </ul>
 
-Acknowledgments
+<h4>Acknowledgements</h4>
 
-About
+<p>About</p>
 
-Healthy Discovery is a collaborative project that includes a group of four members. This project serves as a webpage that provides a structured layout for a developer s portfolio, which is a crucial document for every developes
+Algorithm Genius is a collaborative project that includes a group of four members. This project serves as a webpage that provides a structured layout for a developer s portfolio, which is a crucial document for every developer.
 
 Live Link
 
