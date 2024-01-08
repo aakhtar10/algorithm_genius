@@ -31,9 +31,9 @@ Seveloper's porfolio
 Team Members
 
 <ul>
-  <li><b>Arsnal Aktar</b>b></li>
-  <li><b> Yash Aditya </b>b> </li>
-  <li><b>Prashad Pavar </b>b></li>
+  <li><b>Arsnal Aktar</b></li>
+  <li><b> Yash Aditya </b> </li>
+  <li><b>Prashad Pavar </b></li>
    
 </ul>
 
