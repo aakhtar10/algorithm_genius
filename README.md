@@ -38,6 +38,8 @@ Team Members
 </ul>
 
 Tech Stacks Used
+HTML , CSS , Bootstrap
+</hr>
 
 This project is built using the following technologies:
 
