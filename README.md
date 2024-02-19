@@ -37,7 +37,7 @@ Team Members
    
 </ul>
 
-Tech Stacks Used
+Tech Stacks Used ----
 HTML , CSS , Bootstrap
 </hr>
 
